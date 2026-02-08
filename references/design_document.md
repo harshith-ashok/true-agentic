@@ -1,4 +1,4 @@
-# 📘 Project Intelligence Model (PIM)
+# True Agentic
 
 _A long-term cognitive assistant architecture_
 
