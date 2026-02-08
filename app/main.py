@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from app.routes import events
+from app.api.health import router as health_router
 
-app = FastAPI()
-app.include_router(events.router)
+app = FastAPI(title="Agentic Core")
+
+app.include_router(health_router)
